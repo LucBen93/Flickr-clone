@@ -1,0 +1,58 @@
+@media screen and (min-width: 1090px) {
+  /* UTILITY */
+  .d-flex {
+    display: flex;
+  }
+
+  /* HEADER CONTENT */
+  .searchbar-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 0px 50px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+
+  .searchbar-container input {
+    flex-grow: 1;
+    flex-shrink: 1;
+  }
+
+  .navbar-right-content a {
+    border: none;
+    padding: 6px 7px;
+    display: flex;
+    inline-size: max-content;
+  }
+
+  /* FOOTER CONTENT */
+  .hide {
+    display: block;
+  }
+
+  footer {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  footer li {
+    border-bottom: none;
+  }
+
+  footer ul {
+    display: flex;
+    /* flex-direction: row; */
+
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    flex-shrink: 1;
+  }
+
+  .footer-bottom-text p:last-child {
+    display: none;
+  }
+}

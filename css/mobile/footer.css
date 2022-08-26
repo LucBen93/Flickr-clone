@@ -1,0 +1,30 @@
+.footer-container {
+  position: fixed;
+  font-size: 15px;
+  line-height: 1.2em;
+}
+
+.footer-bottom-text {
+  text-align: center;
+  padding-top: 25px;
+  line-height: 1.5;
+  color: gray;
+  padding-bottom: 10px;
+  font-weight: 600;
+  font-size: 13px;
+}
+
+.footer-bottom-icons {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 20px;
+  color: gray;
+  padding-bottom: 15px;
+  font-size: 20px;
+  max-width: 50%;
+  margin: 0 auto;
+}
+
+.hide {
+  display: none;
+}
